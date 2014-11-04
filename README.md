@@ -9,4 +9,4 @@ In this session, you will learn what SSIS is and which components it consists of
 
 Slides and references can be found at:
 
-http://davidpeterhansen/ssis-dba
+http://davidpeterhansen.com/ssis-dba
