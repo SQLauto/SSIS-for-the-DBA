@@ -1,0 +1,8 @@
+name,year,battle_number,attacker_king,defender_king,attacker_1,attacker_2,attacker_3,attacker_4,defender_1,defender_2,defender_3,defender_4,attacker_outcome,battle_type,major_death,major_capture,attacker_size,defender_size,attacker_commander,defender_commander,summer,location,region,note
+Battle of the Golden Tooth,298,1,Joffrey/Tommen Baratheon,Robb Stark,Lannister,,,,Tully,,,,win,pitched battle,1,0,15000,4000,Jaime Lannister,"Clement Piper, Vance",1,Golden Tooth,The Westerlands,
+Battle at the Mummer's Ford,298,2,Joffrey/Tommen Baratheon,Robb Stark,Lannister,,,,Baratheon,,,,win,ambush,1,0,,120,Gregor Clegane,Beric Dondarrion,1,Mummer's Ford,The Riverlands,
+Battle of Riverrun,298,3,Joffrey/Tommen Baratheon,Robb Stark,Lannister,,,,Tully,,,,win,pitched battle,0,1,15000,10000,"Jaime Lannister, Andros Brax","Edmure Tully, Tytos Blackwood",1,Riverrun,The Riverlands,
+Battle of the Green Fork,298,4,Robb Stark,Joffrey/Tommen Baratheon,Stark,,,,Lannister,,,,loss,pitched battle,1,1,18000,20000,"Roose Bolton, Wylis Manderly, Medger Cerwyn, Harrion Karstark, Halys Hornwood","Tywin Lannister, Gregor Clegane, Kevan Lannister, Addam Marbrand",1,Green Fork,The Riverlands,
+Battle of the Whispering Wood,298,5,Robb Stark,Joffrey/Tommen Baratheon,Stark,Tully,,,Lannister,,,,win,ambush,1,1,1875,6000,"Robb Stark, Brynden Tully",Jaime Lannister,1,Whispering Wood,The Riverlands,
+Battle of the Camps,298,6,Robb Stark,Joffrey/Tommen Baratheon,Stark,Tully,,,Lannister,,,,win,ambush,0,0,6000,12625,"Robb Stark, Tytos Blackwood, Brynden Tully","Lord Andros Brax, Forley Prester",1,Riverrun,The Riverlands,
+Sack of Darry,298,7,Joffrey/Tommen Baratheon,Robb Stark,Lannister,,,,Darry,,,,win,pitched battle,0,0,,,Gregor Clegane,Lyman Darry,1,Darry,The Riverlands,

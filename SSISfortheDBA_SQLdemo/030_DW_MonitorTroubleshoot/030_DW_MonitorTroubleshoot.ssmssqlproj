@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="030_DW_MonitorTroubleshoot">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="SQL2014DEMO01\SQLDEMO01:SQL2014DEMO01\dave">
+          <Created>2014-10-21T12:53:26.9717639+02:00</Created>
+          <Type>SQL</Type>
+          <Server>SQL2014DEMO01\SQLDEMO01</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="000_deploy_troubleshooting_SSIS_packages.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQL2014DEMO01\SQLDEMO01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQL2014DEMO01\SQLDEMO01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>000_deploy_troubleshooting_SSIS_packages.sql</FullPath>
+        </FileNode>
+        <FileNode Name="010_monitoring.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQL2014DEMO01\SQLDEMO01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQL2014DEMO01\SQLDEMO01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>010_monitoring.sql</FullPath>
+        </FileNode>
+        <FileNode Name="020_buffers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQL2014DEMO01\SQLDEMO01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQL2014DEMO01\SQLDEMO01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>020_buffers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="030_datatap.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQL2014DEMO01\SQLDEMO01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQL2014DEMO01\SQLDEMO01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>030_datatap.sql</FullPath>
+        </FileNode>
+        <FileNode Name="040_waits.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQL2014DEMO01\SQLDEMO01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQL2014DEMO01\SQLDEMO01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>040_waits.sql</FullPath>
+        </FileNode>
+        <FileNode Name="050_DataDump.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQL2014DEMO01\SQLDEMO01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQL2014DEMO01\SQLDEMO01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>050_DataDump.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

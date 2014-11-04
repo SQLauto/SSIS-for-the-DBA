@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="020_DW_ConfigDeployExecute">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="SQL2014DEMO01\SQLDEMO01:SQL2014DEMO01\dave">
+          <Created>2014-10-15T20:16:26.6634618+02:00</Created>
+          <Type>SQL</Type>
+          <Server>SQL2014DEMO01\SQLDEMO01</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>GameOfThrones</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SQL2014DEMO01\SQLDEMO02:SQL2014DEMO01\dave">
+          <Created>2014-10-15T20:26:08.8075725+02:00</Created>
+          <Type>SQL</Type>
+          <Server>SQL2014DEMO01\SQLDEMO02</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="010_config_ssisdb.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQL2014DEMO01\SQLDEMO01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQL2014DEMO01\SQLDEMO01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>010_config_ssisdb.sql</FullPath>
+        </FileNode>
+        <FileNode Name="020_deploy_project.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQL2014DEMO01\SQLDEMO01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQL2014DEMO01\SQLDEMO01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>020_deploy_project.sql</FullPath>
+        </FileNode>
+        <FileNode Name="030_execute_package.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQL2014DEMO01\SQLDEMO01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQL2014DEMO01\SQLDEMO01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>030_execute_package.sql</FullPath>
+        </FileNode>
+        <FileNode Name="035_agent_job.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQL2014DEMO01\SQLDEMO01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQL2014DEMO01\SQLDEMO01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>035_agent_job.sql</FullPath>
+        </FileNode>
+        <FileNode Name="040_backup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQL2014DEMO01\SQLDEMO01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQL2014DEMO01\SQLDEMO01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>040_backup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="050_restore.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQL2014DEMO01\SQLDEMO02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQL2014DEMO01\SQLDEMO02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>050_restore.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

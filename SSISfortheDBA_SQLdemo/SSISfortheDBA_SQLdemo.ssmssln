@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# SQL Server Management Studio Solution File, Format Version 12.00
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "000_Setup", "000_Setup\000_Setup.ssmssqlproj", "{CA4AB716-EE70-4045-B362-48B528FA670B}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "020_DW_ConfigDeployExecute", "020_DW_ConfigDeployExecute\020_DW_ConfigDeployExecute.ssmssqlproj", "{B2553184-F1BA-44C8-9F95-44EEE0B178EB}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "030_DW_MonitorTroubleshoot", "030_DW_MonitorTroubleshoot\030_DW_MonitorTroubleshoot.ssmssqlproj", "{87A070D7-4C07-42F8-A1EB-F53191C63081}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "999_Cleanup", "999_Cleanup\999_Cleanup.ssmssqlproj", "{7DCE6E2E-8F0C-4A97-AC15-FFEDF7FD7597}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "010_GameOfThrones", "010_GameOfThrones\010_GameOfThrones.ssmssqlproj", "{366E1FE2-44C3-445A-BFC2-73239F97BB2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA4AB716-EE70-4045-B362-48B528FA670B}.Default|Default.ActiveCfg = Default
+		{B2553184-F1BA-44C8-9F95-44EEE0B178EB}.Default|Default.ActiveCfg = Default
+		{87A070D7-4C07-42F8-A1EB-F53191C63081}.Default|Default.ActiveCfg = Default
+		{7DCE6E2E-8F0C-4A97-AC15-FFEDF7FD7597}.Default|Default.ActiveCfg = Default
+		{366E1FE2-44C3-445A-BFC2-73239F97BB2A}.Default|Default.ActiveCfg = Default
+		{9E2C2728-6482-447D-97E2-3AA9D641DAFA}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
